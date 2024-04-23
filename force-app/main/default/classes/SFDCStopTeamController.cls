@@ -430,6 +430,16 @@ public class SFDCStopTeamController {
             
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Narayan K',
+                'https://avatars.githubusercontent.com/u/99656667?v=4',
+                Date.newInstance(2024, 04, 24),
+                'https://www.saleforce.com'
+            )
+            
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
